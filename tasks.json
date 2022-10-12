@@ -1,193 +1,193 @@
 {
     "data": [
         {
-            "deadline": "",
+            "id": "1521176",
+            "title": "Soft Skill - Pre Test Keterampilan Komunikasi I ",
             "type": "quiz",
-            "title": "UI/UX - Pre Test ",
-            "id": "1191172",
+            "deadline": "",
             "description": ""
         },
         {
-            "title": "UI/UX - Tugas - Pertemuan 1",
-            "type": "assignment",
-            "deadline": " Sunday, 4 September 2022, 12:00 AM\n            \n",
-            "id": "1191173",
-            "description": "Buatlah rangkuman tentang Konsep UI/UX dan Design Guidelines yang kalian pahami.Dikumpulkan dalam format text (.txt)"
-        },
-        {
-            "description": "Lakukan UX Design sederhana dan buat UI Design melalui Figma1. Cari permasalahan sederhana di sekitar anda yang sekiranya dengan aplikasi berbasis mobile, permasalahan tersebut dapat terselesaikan. Kemudian, berdasarkan permasalahan tersebut, buatlah :- 1 Information Architecture, - 1 User Flow, dan- minimal 3 tampilan Wireframe. 2. Buatlah UI Design berdasarkan hasil wireframe yang sudah dibuat, minimal 3 frame. UI yang dibuat adalah halaman login atau daftar, halaman utama, dan sisanya bebas.Informasi pendukung UI Design :- Aset Kit Material (Android) dan Human Interface (iOS) :https://www.figma.com/file/1104021135241005147- Aset Icon : dapat mengambil dari plugin Material Icon yang diinstall pada figma. https://www.figma.com/community/plugin/740272380439725040- Aset foto : unsplash.com- Inspirasi Skema Warna : colorhunt.co- Font : fonts.google.comDikumpulkan dalam bentuk link Figma nya (di file txt)",
-            "type": "assignment",
-            "title": "UI/UX - Tugas - Pertemuan 2",
-            "id": "1191180",
-            "deadline": " Friday, 9 September 2022, 12:00 AM\n            \n"
-        },
-        {
-            "deadline": "",
-            "type": "quiz",
-            "description": "",
-            "id": "1191181",
-            "title": "UI/UX - Post Test "
-        },
-        {
-            "description": "",
-            "type": "quiz",
-            "title": "Daspro - Pre Test (Perkenalan Flutter) ",
             "id": "1261052",
-            "deadline": ""
+            "title": "Daspro - Pre Test (Perkenalan Flutter) ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
         },
         {
+            "id": "1261078",
+            "title": "Daspro - Post Test (Perkenalan Flutter) ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
+        },
+        {
+            "id": "1261074",
+            "title": "Daspro - Pre Test (Dart) ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
+        },
+        {
+            "id": "1261054",
             "title": "Daspro - Tugas - Apa itu Flutter ?",
             "type": "assignment",
-            "description": "Buatlah rangkuman mengenai 3 keunggulan Flutter yang kamu pelajari pada sesi kelas ! File dibuat dengan format text (.txt.)",
-            "id": "1261054",
-            "deadline": " Wednesday, 24 August 2022, 12:00 AM\n            \n"
+            "deadline": "Wednesday, 24 August 2022, 12:00 AM",
+            "description": "Buatlah rangkuman mengenai 3 keunggulan Flutter yang kamu pelajari pada sesi kelas ! File dibuat dengan format text (.txt.)"
         },
         {
-            "deadline": "",
-            "type": "quiz",
-            "description": "",
-            "id": "1261074",
-            "title": "Daspro - Pre Test (Dart) "
-        },
-        {
-            "description": "",
-            "type": "quiz",
-            "deadline": "",
-            "id": "1261078",
-            "title": "Daspro - Post Test (Perkenalan Flutter) "
-        },
-        {
-            "description": "Buatlah sebuah presentasi tentang bagaimana kalian melakukan instalasi Flutter dan code editor kalian. Jelaskan dengan bahasa kalian sendiri, sertakan screenshoot untuk memperlengkap. File presentasi dapat berupa format .pptx ataupun di export ke PDF",
-            "type": "assignment",
-            "title": "Daspro - Tugas - Instalasi Flutter dan Code Editor",
             "id": "1261080",
-            "deadline": " Thursday, 25 August 2022, 12:00 AM\n            \n"
+            "title": "Daspro - Tugas - Instalasi Flutter dan Code Editor",
+            "type": "assignment",
+            "deadline": "Thursday, 25 August 2022, 12:00 AM",
+            "description": "Buatlah sebuah presentasi tentang bagaimana kalian melakukan instalasi Flutter dan code editor kalian. Jelaskan dengan bahasa kalian sendiri, sertakan screenshoot untuk memperlengkap. File presentasi dapat berupa format .pptx ataupun di export ke PDF"
         },
         {
-            "description": "Buatlah program Dart untuk beberapa problem berikut:1. Kalkulator sederhana (tambah, kurang, kali, bagi)2. Menentukan apakah suatu bilangan merupakan bilangan prima3. Mencetak output seperti berikut\u00a0\u00a0\u00a0 *\u00a0\u00a0 * *\u00a0 * * *\u00a0* * * ** * * * *File kode program di zip dan di submit disini",
-            "type": "assignment",
-            "deadline": " Sunday, 4 September 2022, 12:00 AM\n            \n",
             "id": "1261129",
-            "title": "Daspro - Tugas - Pertemuan 1"
-        },
-        {
-            "deadline": " Tuesday, 6 September 2022, 12:00 AM\n            \n",
+            "title": "Daspro - Tugas - Pertemuan 1",
             "type": "assignment",
-            "description": "Buatlah class Kendaraan beserta subclass nya. Kamu bebas untuk menambahkan jenis, detail, dan method dari kendaraan tersebut. Buatlah sedetail mungkin.Jadikan satu file .dart dan langsung di submit kesini",
-            "id": "1261137",
-            "title": "Daspro - Tugas - Pertemuan 2"
+            "deadline": "Sunday, 4 September 2022, 12:00 AM",
+            "description": "Buatlah program Dart untuk beberapa problem berikut:1. Kalkulator sederhana (tambah, kurang, kali, bagi)2. Menentukan apakah suatu bilangan merupakan bilangan prima3. Mencetak output seperti berikut\u00a0\u00a0\u00a0 *\u00a0\u00a0 * *\u00a0 * * *\u00a0* * * ** * * * *File kode program di zip dan di submit disini"
         },
         {
+            "id": "1261137",
+            "title": "Daspro - Tugas - Pertemuan 2",
+            "type": "assignment",
+            "deadline": "Tuesday, 6 September 2022, 12:00 AM",
+            "description": "Buatlah class Kendaraan beserta subclass nya. Kamu bebas untuk menambahkan jenis, detail, dan method dari kendaraan tersebut. Buatlah sedetail mungkin.Jadikan satu file .dart dan langsung di submit kesini"
+        },
+        {
+            "id": "1271345",
             "title": "Database - Pre Test ",
             "type": "quiz",
-            "description": "",
-            "id": "1271345",
-            "deadline": ""
-        },
-        {
-            "title": "Database - Tugas",
-            "type": "assignment",
-            "description": "Buat integrasi aplikasi dengan Firestore untuk mengirim/menerima data dari Firestore. Folder di zip dan di submit kesini. ",
-            "id": "1271433",
-            "deadline": " Sunday, 9 October 2022, 12:00 AM\n            \n"
-        },
-        {
-            "title": "Design Pattern - Pre Test ",
-            "type": "quiz",
             "deadline": "",
-            "id": "1281346",
             "description": ""
         },
         {
-            "title": "Code Versioning - Berkenalan Dengan Git - Tugas",
+            "id": "1271433",
+            "title": "Database - Tugas",
             "type": "assignment",
-            "deadline": " Friday, 26 August 2022, 12:00 AM\n            \n",
-            "id": "1291101",
-            "description": "Buatlah rangkuman tentang 3 benefit yang kamu dapatkan ketika menggunakan Git! Dikerjakan dan dikumpulkan dalam format text (.txt)"
+            "deadline": "Sunday, 9 October 2022, 12:00 AM",
+            "description": "Buat integrasi aplikasi dengan Firestore untuk mengirim/menerima data dari Firestore. Folder di zip dan di submit kesini. "
         },
         {
+            "id": "1291111",
             "title": "Code Versioning - Pre Test (Code Versioning) ",
             "type": "quiz",
             "deadline": "",
-            "id": "1291111",
             "description": ""
         },
         {
+            "id": "1291130",
+            "title": "Code Versioning - Post Test (Code Versioning) ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
+        },
+        {
+            "id": "1291101",
+            "title": "Code Versioning - Berkenalan Dengan Git - Tugas",
+            "type": "assignment",
+            "deadline": "Friday, 26 August 2022, 12:00 AM",
+            "description": "Buatlah rangkuman tentang 3 benefit yang kamu dapatkan ketika menggunakan Git! Dikerjakan dan dikumpulkan dalam format text (.txt)"
+        },
+        {
+            "id": "1291118",
             "title": "Code Versioning - Remote Hosting Dengan GitHub - Tugas",
             "type": "assignment",
-            "deadline": " Sunday, 28 August 2022, 12:00 AM\n            \n",
-            "id": "1291118",
+            "deadline": "Sunday, 28 August 2022, 12:00 AM",
             "description": "1. Praktikkan penggunaan branch2. Praktikkan merge branch3. Hubungkan local repository dengan remote repositoryLocal repository di zip kemudian di submit kesini"
         },
         {
-            "title": "Code Versioning - Post Test (Code Versioning) ",
-            "type": "quiz",
-            "description": "",
-            "id": "1291130",
-            "deadline": ""
-        },
-        {
-            "description": "",
+            "id": "1191172",
+            "title": "UI/UX - Pre Test ",
             "type": "quiz",
             "deadline": "",
-            "id": "1301194",
-            "title": "Pemrograman Mobile - Pre Test "
-        },
-        {
-            "title": "Pemrograman Mobile - Tugas - Material Widget",
-            "type": "assignment",
-            "description": "Buatlah satu page yang menggunakan Material Widget",
-            "id": "1301266",
-            "deadline": " Friday, 16 September 2022, 12:00 AM\n            \n"
-        },
-        {
-            "description": "Buatlah satu page yang menggunakan Cupertino Widget",
-            "type": "assignment",
-            "title": "Pemrograman Mobile - Tugas - Cupertino Widget",
-            "id": "1301267",
-            "deadline": " Friday, 16 September 2022, 12:00 AM\n            \n"
-        },
-        {
-            "deadline": "",
-            "type": "quiz",
-            "title": "Pemrograman Mobile - Pre Test ",
-            "id": "1301313",
             "description": ""
         },
         {
-            "deadline": " Friday, 7 October 2022, 12:00 AM\n            \n",
+            "id": "1191181",
+            "title": "UI/UX - Post Test ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
+        },
+        {
+            "id": "1191173",
+            "title": "UI/UX - Tugas - Pertemuan 1",
             "type": "assignment",
-            "title": "Pemrograman Mobile - Tugas",
+            "deadline": "Sunday, 4 September 2022, 12:00 AM",
+            "description": "Buatlah rangkuman tentang Konsep UI/UX dan Design Guidelines yang kalian pahami.Dikumpulkan dalam format text (.txt)"
+        },
+        {
+            "id": "1191180",
+            "title": "UI/UX - Tugas - Pertemuan 2",
+            "type": "assignment",
+            "deadline": "Friday, 9 September 2022, 12:00 AM",
+            "description": "Lakukan UX Design sederhana dan buat UI Design melalui Figma1. Cari permasalahan sederhana di sekitar anda yang sekiranya dengan aplikasi berbasis mobile, permasalahan tersebut dapat terselesaikan. Kemudian, berdasarkan permasalahan tersebut, buatlah :- 1 Information Architecture, - 1 User Flow, dan- minimal 3 tampilan Wireframe. 2. Buatlah UI Design berdasarkan hasil wireframe yang sudah dibuat, minimal 3 frame. UI yang dibuat adalah halaman login atau daftar, halaman utama, dan sisanya bebas.Informasi pendukung UI Design :- Aset Kit Material (Android) dan Human Interface (iOS) :https://www.figma.com/file/1104021135241005147- Aset Icon : dapat mengambil dari plugin Material Icon yang diinstall pada figma. https://www.figma.com/community/plugin/740272380439725040- Aset foto : unsplash.com- Inspirasi Skema Warna : colorhunt.co- Font : fonts.google.comDikumpulkan dalam bentuk link Figma nya (di file txt)"
+        },
+        {
+            "id": "1281346",
+            "title": "Design Pattern - Pre Test ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
+        },
+        {
+            "id": "1531023",
+            "title": "Orientation Class - ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
+        },
+        {
+            "id": "1531020",
+            "title": "Orientation Class - Task 1 - Pengumpulan Tugas",
+            "type": "assignment",
+            "deadline": "Friday, 26 August 2022, 12:00 AM",
+            "description": "Dari Materi - Pertemuan 1 terdapat tugas latihan untuk dikerjakan.Pengempulan tugas dalam bentuk .pdf"
+        },
+        {
+            "id": "1301194",
+            "title": "Pemrograman Mobile - Pre Test ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
+        },
+        {
+            "id": "1301313",
+            "title": "Pemrograman Mobile - Pre Test ",
+            "type": "quiz",
+            "deadline": "",
+            "description": ""
+        },
+        {
+            "id": "1301266",
+            "title": "Pemrograman Mobile - Tugas - Material Widget",
+            "type": "assignment",
+            "deadline": "Friday, 16 September 2022, 12:00 AM",
+            "description": "Buatlah satu page yang menggunakan Material Widget"
+        },
+        {
+            "id": "1301267",
+            "title": "Pemrograman Mobile - Tugas - Cupertino Widget",
+            "type": "assignment",
+            "deadline": "Friday, 16 September 2022, 12:00 AM",
+            "description": "Buatlah satu page yang menggunakan Cupertino Widget"
+        },
+        {
             "id": "1301415",
+            "title": "Pemrograman Mobile - Tugas",
+            "type": "assignment",
+            "deadline": "Friday, 7 October 2022, 12:00 AM",
             "description": "Buatlah satu page yang menampilkan data yang berasal dari public API. Data setidaknya mengandung konten teks dan gambar.Contoh public API yang dapat digunakan adalah di sumber berikut:https://github.com/public-apis/public-apisFile kode dijadikan satu zip"
         },
         {
-            "description": "",
-            "type": "quiz",
-            "title": "Final Project - Pre Test ",
             "id": "1311357",
-            "deadline": ""
-        },
-        {
-            "deadline": "",
-            "type": "quiz",
-            "description": "",
-            "id": "1521176",
-            "title": "Soft Skill - Pre Test Keterampilan Komunikasi I "
-        },
-        {
-            "title": "Orientation Class - Task 1 - Pengumpulan Tugas",
-            "type": "assignment",
-            "description": "Dari Materi - Pertemuan 1 terdapat tugas latihan untuk dikerjakan.Pengempulan tugas dalam bentuk .pdf",
-            "id": "1531020",
-            "deadline": " Friday, 26 August 2022, 12:00 AM\n            \n"
-        },
-        {
-            "description": "",
+            "title": "Final Project - Pre Test ",
             "type": "quiz",
             "deadline": "",
-            "id": "1531023",
-            "title": "Orientation Class - "
+            "description": ""
         }
     ]
 }
