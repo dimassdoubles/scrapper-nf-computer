@@ -25,7 +25,7 @@ class FirebaseController:
         asyncio.set_event_loop(asyncio.new_event_loop())
         self.__loop = asyncio.get_event_loop()
     
-    def __get_tasks(self):
+    def get_tasks(self):
         docs = self.__loop.run_until_complete(self.__collection.get())
         data = []
         for doc in docs:
