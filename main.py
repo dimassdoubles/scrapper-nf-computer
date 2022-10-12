@@ -45,12 +45,19 @@ def main():
         if len(current_tasks) != len(new_tasks):
             print("[+] Try to push data to firestore")
             firebase_controller.push_tasks(new_tasks)
+            print("[+] Write new tasks to json file")
+            tasks = {"data": new_tasks}
+            json_object =json.dumps(tasks, indent=4)
+            with open("tasks.json", "w") as file:
+                file.write(json_object)
             print("[+] Transaction completed")
         else:
             print("[+] There is no new task, transaction completed")
+
     else: 
         print("[-] Sorry, there is a problem when login")
     
+    firebase_controller.close()
     print("")
 
 if __name__ == "__main__":
