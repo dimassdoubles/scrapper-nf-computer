@@ -1,5 +1,7 @@
+from asyncio import current_task
+import json
 import credentials
-from firebaseController import pushData
+from firebaseController import FirebaseController, pushData
 from learningPlatform import LearningPlatform
 
 def main():
@@ -19,21 +21,37 @@ def main():
 
     username = credentials.username
     password = credentials.password
-
+    collection = "tasks"
     nf_computer = LearningPlatform(url=login_url)
+    firebase_controller = FirebaseController(collection=collection)
     
     isLogin = nf_computer.login(username=username, password=password)
     if isLogin:
         name = nf_computer.get_user_name()
-        print("Selamat Datang " + name + "\n")
+        print("Welcome Datang " + name + "\n")
 
-        print("[+] Mencoba mengekstrak data")
-        tasks = nf_computer.get_tasks(list_course_dict=list_course_dict)
-        print("[+] Melakukan push data")
-        pushData(tasks=tasks)
-        print("[+] Push data selesai")
+        print("[+] Try to extract data from website")
+        new_tasks = nf_computer.get_tasks(list_course_dict=list_course_dict)
+
+        print("[+] Cek if there is new task")
+        with open("tasks.json") as file:
+            json_object =json.load(file)
+
+        current_tasks = json_object["data"]
+
+        print(f"    - Current tasks length   : {len(current_tasks)} tasks")
+        print(f"    - Extracted tasks length : {len(new_tasks)} tasks")
+
+        if len(current_tasks) != len(new_tasks):
+            print("[+] Try to push data to firestore")
+            firebase_controller.push_tasks(new_tasks)
+            print("[+] Transaction completed")
+        else:
+            print("[+] There is no new task, transaction completed")
     else: 
-        print("[-] Maaf, terjadi kesalahan saat login")
+        print("[-] Sorry, there is a problem when login")
+    
+    print("")
 
 if __name__ == "__main__":
     main()
