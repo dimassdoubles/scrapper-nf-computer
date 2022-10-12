@@ -92,7 +92,7 @@ class LearningPlatform:
                 assignment_response = self.__session.get(url_assign_page)
                 assignment_soup = BeautifulSoup(assignment_response.text, "html.parser")
                 assignment_title = assignment_soup.find("h2", {"class": "ccnMdlHeading"}).text
-                assignment_deadline = assignment_soup.find("div", {"data-region": "activity-dates"}).text.split("Due:")[-1]
+                assignment_deadline = assignment_soup.find("div", {"data-region": "activity-dates"}).text.split("Due: ")[-1].split("\n")[0]
                 assignment_description = assignment_soup.find("div", {"id": "intro"}).text
 
                 new_task = {
